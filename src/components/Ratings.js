@@ -1,28 +1,38 @@
-import { Rating, Typography } from '@mui/material';
+import { Grid, Rating, Typography } from '@mui/material';
 import React from 'react';
 
 const Ratings = () => {
     return (
-        <div>
-            <h2>Rating</h2>
-            <Typography component="legend">Controllable</Typography>
+        <Grid container spacing={2}>
+            <Grid item xs={4}>
+                <div>
+                    <h2>Rating</h2>
+                    <Typography component="legend">Controllable</Typography>
 
-            <Rating name="simple-controlled"></Rating>
-            <Typography component="legend">Read Only</Typography>
+                    <Rating name="simple-controlled"></Rating>
+                    <Typography component="legend">Read Only</Typography>
 
-            <Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly />
-            <Typography component="legend">Small size</Typography>
-            <Rating name="size-small" defaultValue={2} size="small" />
+                    <Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly />
+                    <Typography component="legend">Small size</Typography>
+                    <Rating name="size-small" defaultValue={2} size="small" />
 
-            <Typography component="legend">Large</Typography>
-            <Rating name="size-large" defaultValue={2} size="large" />
-            <Typography component="legend">10 stars</Typography>
-            <Rating name="customized-10" defaultValue={2} max={10} />
+                    <Typography component="legend">Large</Typography>
+                    <Rating name="size-large" defaultValue={2} size="large" />
+                    <Typography component="legend">10 stars</Typography>
+                    <Rating name="customized-10" defaultValue={2} max={10} />
 
-            <Typography component="legend">Disabled</Typography>
+                    <Typography component="legend">Disabled</Typography>
 
-            <Rating name="disabled" disabled />
-        </div>
+                    <Rating name="disabled" disabled />
+                </div>
+            </Grid>
+            <Grid item xs={4}>
+
+            </Grid>
+        </Grid>
+
+
+
     );
 };
 
