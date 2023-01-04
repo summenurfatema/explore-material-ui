@@ -10,7 +10,7 @@ const Ratings = () => {
             <Rating name="simple-controlled"></Rating>
             <Typography component="legend">Read Only</Typography>
 
-            <Rating name="read-only" readOnly />
+            <Rating name="half-rating-read" defaultValue={2.5} precision={0.5} readOnly />
             <Typography component="legend">Disabled</Typography>
 
             <Rating name="disabled" disabled />
