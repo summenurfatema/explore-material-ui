@@ -27,6 +27,20 @@ const Ratings = () => {
                 </div>
             </Grid>
             <Grid item xs={4}>
+                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+                    <Grid item xs={6}>
+                        <div>1</div>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <div>2</div>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <div>3</div>
+                    </Grid>
+                    <Grid item xs={6}>
+                        <div>4</div>
+                    </Grid>
+                </Grid>
 
             </Grid>
         </Grid>
