@@ -1,6 +1,7 @@
 import Button from './components/Buttons';
 import './App.css';
 import Checkboxs from './components/Checkboxs';
+import Ratings from './components/Ratings';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Button />
       <Checkboxs />
+      <Ratings />
 
     </div>
   );
