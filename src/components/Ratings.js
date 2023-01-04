@@ -41,6 +41,14 @@ const Ratings = () => {
                         <div>4</div>
                     </Grid>
                 </Grid>
+                ,,,,
+                <Grid
+                    container
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="center"
+                ></Grid>
+
 
             </Grid>
         </Grid>
